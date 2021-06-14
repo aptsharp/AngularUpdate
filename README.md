@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/6175226/121825628-e5079f80-cc89-11eb-943d-6d81a8a53782.gif" width="600" align="right" alt="Angular"/>
+<img src="https://user-images.githubusercontent.com/6175226/121825628-e5079f80-cc89-11eb-943d-6d81a8a53782.gif" width="600" alt="Angular"/>
 
 # AngularUpdate
 
