@@ -1,15 +1,30 @@
-import { Component, OnInit } from '@angular/core';
+import { VideoService } from "./../video.service";
+import { Component, OnInit } from "@angular/core";
+import { Observable } from "rxjs";
+
+interface Repository {
+  name: string;
+  description: string;
+}
 
 @Component({
-  selector: 'app-video-list',
-  templateUrl: './video-list.component.html',
-  styleUrls: ['./video-list.component.css']
+  selector: "app-video-list",
+  templateUrl: "./video-list.component.html",
+  styleUrls: ["./video-list.component.css"],
 })
 export class VideoListComponent implements OnInit {
 
-  constructor() { }
+  repos: Observable<Repository[]>;
 
-  ngOnInit() {
+  constructor(
+    private VideoService: VideoService // injeção do service
+  ) {}
+
+  ngOnInit(): void {
+    this.repos = this.VideoService.getRespos();
   }
 
+  navigateToDetail(): void{
+
+  }
 }

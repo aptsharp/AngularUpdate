@@ -1,1 +1,8 @@
-<p>video-list works!</p>
+<ul>
+  <li *ngFor="let repo of repos | async">
+    <strong> {{repo.name}} </strong>
+    <p> {{repo.description }}</p>
+
+    <a [routerLink]= "['detail/', repo.name]">Detalhes</a>
+  </li>
+</ul>
