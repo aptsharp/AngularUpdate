@@ -1,3 +1,5 @@
+<img align="right" src="https://user-images.githubusercontent.com/6175226/121825628-e5079f80-cc89-11eb-943d-6d81a8a53782.gif" alt="Angular"/>
+
 # AngularUpdate
 
 Live realizada no canal Rocketseat.
