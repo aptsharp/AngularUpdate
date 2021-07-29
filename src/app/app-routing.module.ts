@@ -3,7 +3,7 @@ import { Routes, RouterModule } from "@angular/router";
 
 const routes: Routes = [
   {
-    path: "videos",
+    path: "",
     loadChildren: () =>
       import("./video/video.module").then((m) => m.VideoModule),
   },
