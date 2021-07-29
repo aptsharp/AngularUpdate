@@ -1,13 +1,13 @@
 <div class="nfc">
   <ul>
     <li *ngFor="let repo of repos | async">
-      <p>titulo: </p>
+      <p>titulo:</p>
       <strong> {{ repo.name }} </strong>
-      <p>descrição: </p>
+      <p>descrição:</p>
       <p>{{ repo.description }}</p>
       <p>Link:</p>
       <a [routerLink]="['detail/', repo.name]">Detalhes</a>
-      <p></p>
+      <p>-</p>
     </li>
   </ul>
 </div>
